@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Avenir Next", "Open Sans", sans-serif;
+    color:white;
+    margin: 0;
+    background-image: url("http://ballkee.synology.me/photo/webapi/thumb.php?api=SYNO.PhotoStation.Thumb&method=get&version=1&size=large&public_share_id=jbCewaq8&id=photo_47616c6c657279_494d475f363430382e4a5047&rotate_version=0&mtime=1658283291&SynoToken=40d676e91e6d84e1e14fd57bdfa0c271");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100%;
+}
+
+.overlay {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
+
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    /*top: 10%;
+    left: 10%;*/
+    width: 80%;
+    z-index: 2;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.links {
+    max-width: 64;
+    max-height: 64;
+    border-radius: 16px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.column {
+    width: 33%;
+    
+}
+
+.button {
+    border-radius: 0.6em;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 700;
+}
+
+.button:hover, .button:focus {
+    color: rgb(218, 218, 218);
+    outline: 0;
+}
+
+.addtoserver {
+    border-color: #ff0000;
+    background-color: #24c929;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, #1d6bd0 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: 300ms ease-in-out;
+}
+
+.addtoserver:hover {
+    background-position: 0;
+    border-color: #0d70e1;
+}
+  
+h3 {
+    text-align: center;
+    font-weight: 300;
+    text-align: left !important;
+}
