@@ -3,12 +3,12 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Avenir Next", "Open Sans", sans-serif;
-    color:white;
+    color: white;
     margin: 0;
-    background-image: url("http://ballkee.synology.me/photo/webapi/thumb.php?api=SYNO.PhotoStation.Thumb&method=get&version=1&size=large&public_share_id=jbCewaq8&id=photo_47616c6c657279_494d475f373836322e4a5047&rotate_version=0&mtime=1658284354&SynoToken=40d676e91e6d84e1e14fd57bdfa0c271");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("https://i.imgur.com/ohprMQj.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
     height: 100%;
 }
 
@@ -58,6 +58,6 @@ body {
   
 h3 {
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     text-align: left !important;
 }
